@@ -13,7 +13,7 @@
 # 关于foodmart数据库
 
 foodmart是旧版本的SQL Server所带的示例数据库，它模拟了一家大型的食品连锁店的经营业务所产生的数据，其中包括了客户管理数据、销售数据、分销数据和库存数据等。为了对其进行了解，下图是我绘制的er（实体关系）图。er图主要由实体、属性、关系三部分组成，通过一对一，一对多，多对多三种关系来表示表与表之间的联系。
-![er](https://github.com/zyf1999lj/mysql_zh/blob/master/er图.png)
+![er](https://github.com/zyf1999lj/mysqlzh/blob/master/er.png)
 
 如图
 
@@ -43,7 +43,7 @@ foodmart是旧版本的SQL Server所带的示例数据库，它模拟了一家�
       <https://github.com/zyf1999lj/mysql_zh>
 2. 运行程序
     - 修改region.txt文件，该文件记录了表的表名，数据库需要翻译的字段名（含待翻译的英文内容）以及翻译后的字段名（含翻译出的中文内容）。如图：
-    ![image](https://github.com/zyf1999lj/mysql_zh/blob/master/region.txt.png)
+    ![image](https://github.com/zyf1999lj/mysqlzh/blob/master/region.txt.png)
 
 	   每行中“：”前的单词为表名，“：”后是一对字段名。
 	   
@@ -51,9 +51,9 @@ foodmart是旧版本的SQL Server所带的示例数据库，它模拟了一家�
 	   
 	   请根据你的实际情况替代这些内容。
     - 打开控制台或Windows PowerShell，进入trans_region.py所在文件夹，输入python trans_region.py mysql用户名 密码 region.txt地址 新建txt文件地址，运行程序后即可翻译数据库中的单词并将结果保存在txt文件中
-    ![run1](https://github.com/zyf1999lj/mysql_zh/blob/master/run1.png)
+    ![run1](https://github.com/zyf1999lj/mysqlzh/blob/master/run1.png)
     - 然后进入mysql_zh.py所在文件夹，输入python mysql_zh.py mysql用户名 密码 region.txt地址 之前生成的txt文件地址，运行程序即可将翻译结果填入数据库中
-    ![run2](https://github.com/zyf1999lj/mysql_zh/blob/master/run2.png)
+    ![run2](https://github.com/zyf1999lj/mysqlzh/blob/master/run2.png)
 # 小结
 这个项目增强了我对数据库的理解，使我对python有了更深的体会。这里我将成果分享给大家，希望可以对大家有所帮助。
 在此，我还要感谢给我实习机会的公司前辈。
