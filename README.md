@@ -43,6 +43,7 @@ foodmart是旧版本的SQL Server所带的示例数据库，它模拟了一家�
       <https://github.com/zyf1999lj/mysql_zh>
 2. 运行程序
     - 修改region.txt文件，该文件记录了表的表名，数据库需要翻译的字段名（含待翻译的英文内容）以及翻译后的字段名（含翻译出的中文内容）。如图：
+    
     ![image](https://raw.githubusercontent.com/zyf1999lj/mysqlzh/master/region.txt.png)
 
 	   每行中“：”前的单词为表名，“：”后是一对字段名。
